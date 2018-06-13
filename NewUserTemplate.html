@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <style media="screen">
+      .form {
+         position: relative;
+         top: 200px;
+      }
+
+      form input {
+         font-size: 25px;
+         margin: 10px;
+      }
+   </style>
+</head>
+
+<body>
+   <center>
+      <form class="form" method='POST' action='/users/new' enctype='multipart/form-data'>
+         <input type="text" name="username" placeholder="enter new username"><br>
+         <input type="submit" value="add User">
+      </form>
+   </center>
+</body>
+
+</html>
