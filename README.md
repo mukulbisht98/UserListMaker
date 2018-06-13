@@ -3,11 +3,11 @@ this project creates a webpage including a database and a webserver which allows
 
 ## Getting Started
 You should have Basic understanding in Python, HTML, CSS & JS.
-##Prerequisites
+### Prerequisites
 things you need to install :
 1.) python
 2.) sqlalchemy
-##installing
+### installing
 1.) python or python3
 ```
 sudo apt-get install python
@@ -22,7 +22,7 @@ sudo apt-get install python3
  pip install SQLAlchemy==1.2.8
  ```
 
-##Starting
+### Starting
 first run database_setup.py to setup the database in your device.
 ```
 python database_setup.py
