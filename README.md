@@ -3,11 +3,11 @@ this project creates a webpage including a database and a webserver which allows
 
 ## Getting Started
 You should have Basic understanding in Python, HTML, CSS & JS.
-###Prerequisites
+##Prerequisites
 things you need to install :
 1.) python
 2.) sqlalchemy
-###installing
+##installing
 1.) python or python3
 ```
 sudo apt-get install python
