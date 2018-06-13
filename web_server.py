@@ -1,6 +1,6 @@
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 import cgi
-
+import webbrowser as wb
 # import CRUD Operations from Lesson 1 ##
 from database_setup import Base, Users
 from sqlalchemy import create_engine
@@ -76,10 +76,10 @@ class webServerHandler(BaseHTTPRequestHandler):
 def main():
     try:
         server = HTTPServer(('', 8080), webServerHandler)
-        print ('Web server running...open localhost:8080/users in your browser')
+        print ('Web server running... open localhost:8080/users in your browser')
         server.serve_forever()
     except KeyboardInterrupt:
-        print ('^C received, shutting down server')
+        print (' received, shutting down server')
         server.socket.close()
 
 

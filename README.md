@@ -23,11 +23,29 @@ sudo apt-get install python3
  ```
 
 ### Starting
+
+#### tough way
 first run database_setup.py to setup the database in your device.
 ```
 python database_setup.py
 ```
-after database_setup run web_server.py
+to add users with python run newEntry.py
+```
+python newEntry.py
+```
+after database_setup and adding few users, run web_server.py
 ```
 python web_server.py
 ```
+
+#### easy way
+Just run Webserver.py
+```
+python web_server.py
+```
+and ENJOY!!!
+
+### On Browser
+open [localhost:8080/users](localhost:8080/users) to view the usersList
+
+you can add users by [localhost:8080/users/new](localhost:8080/users/new)
